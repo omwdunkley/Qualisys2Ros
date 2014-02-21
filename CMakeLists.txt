@@ -37,12 +37,3 @@ link_directories(/usr/local/libsfbcomm /usr/local/tinyxml)
 
 rosbuild_add_executable (Qualisys2Ros src/Qualisys2Ros.cpp include/NBC_Markup.cpp include/Network.cpp include/RTPacket.cpp include/RTProtocol.cpp)
 rosbuild_add_compile_flags(Qualisys2Ros -w)
-
-#rosbuild_add_executable (Qualisys2Simulink src/Qualisys2Simulink.cpp include/NBC_Markup.cpp include/Network.cpp include/RTPacket.cpp include/RTProtocol.cpp include/SFBCWrapper.cpp)
-#rosbuild_add_compile_flags(Qualisys2Simulink -w)
-
-#rosbuild_add_executable (Qualisys2RosAndSimulink src/Qualisys2RosAndSimulink.cpp include/NBC_Markup.cpp include/Network.cpp include/RTPacket.cpp include/RTProtocol.cpp include/SFBCWrapper.cpp)
-#rosbuild_add_compile_flags(Qualisys2RosAndSimulink -w)
-
-#target_link_libraries(Qualisys2Simulink xvidcore tinyxml sfbcomm)
-#target_link_libraries(Qualisys2RosAndSimulink xvidcore tinyxml sfbcomm)

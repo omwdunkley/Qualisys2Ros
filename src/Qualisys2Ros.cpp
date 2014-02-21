@@ -1,5 +1,5 @@
-#pragma warning( push )
-#pragma warning ( disable : ALL_CODE_ANALYSIS_WARNINGS )
+//#pragma warning( push )
+//#pragma warning ( disable : ALL_CODE_ANALYSIS_WARNINGS )
 #include "RTProtocol.h"
 #pragma warning( pop )
 
@@ -16,8 +16,6 @@
 
 // Including ROS and SFBcomm
 #include <ros/ros.h>
-#include "Qualisys2Ros/Marker.h"
-#include "Qualisys2Ros/RigidBody.h"
 #include <sstream>
 
 using namespace std;
